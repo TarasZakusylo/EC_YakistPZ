@@ -8,6 +8,8 @@ import java.awt.event.MouseEvent;
 import javax.swing.ImageIcon;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
+import javax.swing.JScrollPane;
+import javax.swing.JTextPane;
 import javax.swing.SwingConstants;
 
 public class ObrobkaOcinku extends JFrame {
@@ -15,6 +17,13 @@ public class ObrobkaOcinku extends JFrame {
 	private static final long serialVersionUID = 1L;
 
 	private JLabel l_fon;
+
+	String s_tezy = "                        ВАМ НЕОБХІДНО:";
+	boolean b_tezu_null = false;
+
+	private JTextPane textPane;
+
+	private JScrollPane scrollPane;
 
 	public ObrobkaOcinku(int grup_putanna, int grup_putanna1, int grup_putanna2, int grup_putanna3, int grup_putanna4,
 			int grup_putanna5, int grup_putanna6, int grup_putanna7, int grup_putanna8, int grup_putanna9,
@@ -39,15 +48,65 @@ public class ObrobkaOcinku extends JFrame {
 		double d_Suprovodjyvannist = (grup_putanna23 + grup_putanna24 + grup_putanna25 + grup_putanna26) * 5;
 		double d_Perenesenna = (grup_putanna27 + grup_putanna28 + grup_putanna29) * 6.66;
 
-		d_FunkcionalnaPrudatnist = (int)d_FunkcionalnaPrudatnist;
-		d_Efektyvnist = (int)d_Efektyvnist;
-		d_Zruchnist = (int)d_Zruchnist;
-		d_Nadiynist = (int)d_Nadiynist;
-		d_Sumisnist = (int)d_Sumisnist;
-		d_Bezpeka = (int)d_Bezpeka;
-		d_Suprovodjyvannist = (int)d_Suprovodjyvannist;
-		d_Perenesenna = (int)d_Perenesenna;
-		
+		d_FunkcionalnaPrudatnist = (int) d_FunkcionalnaPrudatnist;
+		d_Efektyvnist = (int) d_Efektyvnist;
+		d_Zruchnist = (int) d_Zruchnist;
+		d_Nadiynist = (int) d_Nadiynist;
+		d_Sumisnist = (int) d_Sumisnist;
+		d_Bezpeka = (int) d_Bezpeka;
+		d_Suprovodjyvannist = (int) d_Suprovodjyvannist;
+		d_Perenesenna = (int) d_Perenesenna;
+
+		if (d_FunkcionalnaPrudatnist < 75) {
+			b_tezu_null = true;
+			s_tezy = s_tezy + "\n\n  - Перевірте наявність дефектів у специфікації, проекті та реалізації системи."
+					+ "\n\n  - Перевірте відповідність ТЗ (якщо створюєте проеет самостійно, то продумайте функціонал)."
+					+ "\n\n  - Зверніть увагу на безпомилковості системи, особливо коли є виведення кількісних даних.";
+		}
+		if (d_Efektyvnist < 75) {
+			b_tezu_null = true;
+			s_tezy = s_tezy
+					+ "\n\n  - Перевірте масштаб зміни системи (мета: ефективне використання в тих галузях або середовищах, на які не була орієнтована)."
+					+ "\n\n  - Перегляньте ступінь виконання блокового і системного тестування програми та перевірки її відповідності вимогам.";
+		}
+		if (d_Zruchnist < 75) {
+			b_tezu_null = true;
+			s_tezy = s_tezy + "\n\n  - Зробіть систему простішою та легшою, а також зрозумілішою."
+					+ "\n\n  - Попрацюйте над оптимізацією системи.";
+		}
+		if (d_Nadiynist < 75) {
+			b_tezu_null = true;
+			s_tezy = s_tezy
+					+ "\n\n  - Переробіть використання системних ресурсів. Ця характеристика враховує такі фактори, як швидкодія програми і необхідний їй обсяг пам'яті."
+					+ "\n\n  - Проблеми із здатністю системи виконувати необхідні функції за певних умов, а також із середнім інтервалом між відмовами."
+					+ "\n\n  - Реалізуйте здатність системи продовжувати роботу при введенні неприпустимих даних або в напружених умовах.";
+		}
+		if (d_Sumisnist < 75) {
+			b_tezu_null = true;
+			s_tezy = s_tezy
+					+ "\n\n  - Реалізуйте можливість використання системи без її зміни в тих галузях або середовищах, на які вона не була орієнтована безпосередньо."
+					+ "\n\n  - Створіть масштабність і легкість використання частин системи в інших системах.";
+		}
+		if (d_Bezpeka < 75) {
+			b_tezu_null = true;
+			s_tezy = s_tezy
+					+ "\n\n  - Необхідна затність системи запобігати неавторизованому або некоректному доступу до своїх програм та даних.";
+		}
+		if (d_Suprovodjyvannist < 75) {
+			b_tezu_null = true;
+			s_tezy = s_tezy
+					+ "\n\n  - Реалізуйте легку зміну програмної системи з метою реалізації додаткових можливостей, підвищення швидкодії, виправлення дефектів тощо.";
+		}
+		if (d_Perenesenna < 75) {
+			b_tezu_null = true;
+			s_tezy = s_tezy
+					+ "\n\n  - Реалізуйте легку зміну системи з метою використання у середовищах, на які вона не була орієнтована безпосередньо.";
+		}
+
+		if (b_tezu_null == false) {
+			s_tezy = "	У ВАС ПРЕКРАСНА СИСТЕМА";
+		}
+
 		JLabel label = new JLabel("Меню");
 		label.addMouseListener(new MouseAdapter() {
 			@Override
@@ -59,7 +118,7 @@ public class ObrobkaOcinku extends JFrame {
 		label.setHorizontalAlignment(SwingConstants.CENTER);
 		label.setForeground(Color.CYAN);
 		label.setFont(new Font("Times New Roman", Font.BOLD | Font.ITALIC, 39));
-		label.setBounds(447, 423, 547, 42);
+		label.setBounds(719, 423, 275, 42);
 		getContentPane().add(label);
 
 		JLabel label_1 = new JLabel("Результати:");
@@ -125,8 +184,33 @@ public class ObrobkaOcinku extends JFrame {
 		label_9.setBounds(447, 358, 547, 42);
 		getContentPane().add(label_9);
 
+		scrollPane = new JScrollPane();
+		// scrollPane.setBounds(12, 13, 443, 439);
+		getContentPane().add(scrollPane);
+
+		textPane = new JTextPane();
+		scrollPane.setViewportView(textPane);
+		textPane.setForeground(new Color(0, 128, 0));
+		textPane.setFont(new Font("Times New Roman", Font.BOLD | Font.ITALIC, 20));
+		// textPane.setText(s_tezy);
+
+		JLabel label_10 = new JLabel("Тези");
+		label_10.addMouseListener(new MouseAdapter() {
+			@Override
+			public void mouseClicked(MouseEvent e) {
+				scrollPane.setBounds(12, 13, 443, 439);
+				textPane.setText(s_tezy);
+			}
+		});
+		label_10.setHorizontalAlignment(SwingConstants.CENTER);
+		label_10.setForeground(Color.CYAN);
+		label_10.setFont(new Font("Times New Roman", Font.BOLD | Font.ITALIC, 39));
+		label_10.setBounds(446, 423, 275, 42);
+		getContentPane().add(label_10);
+
 		l_fon = new JLabel("");
-//		l_fon.setIcon(new ImageIcon("C:\\Users\\ZakkZakk\\Desktop\\Rezultatu (змешена).jpg"));
+		// l_fon.setIcon(new ImageIcon("C:\\Users\\ZakkZakk\\Desktop\\Rezultatu
+		// (змешена).jpg"));
 		l_fon.setForeground(Color.WHITE);
 		l_fon.setIcon(new ImageIcon("res/fon/Rezultatu (зменшена).jpg"));
 		l_fon.setBounds(-1, 0, 995, 465);
