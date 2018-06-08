@@ -134,14 +134,14 @@ public class OcinkaKodu3 extends JFrame {
 			public void mouseClicked(MouseEvent e) {
 				grup_putanna15 = 1;
 				dali();
-				label.setIcon(new ImageIcon("C:\\Users\\ZakkZakk\\Desktop\\Зірка_1 (зменшена).jpg"));
-				label_1.setIcon(new ImageIcon("C:\\Users\\ZakkZakk\\Desktop\\Зірка_0 (зменшена).jpg"));
-				label_2.setIcon(new ImageIcon("C:\\Users\\ZakkZakk\\Desktop\\Зірка_0 (зменшена).jpg"));
-				label_3.setIcon(new ImageIcon("C:\\Users\\ZakkZakk\\Desktop\\Зірка_0 (зменшена).jpg"));
-				label_4.setIcon(new ImageIcon("C:\\Users\\ZakkZakk\\Desktop\\Зірка_0 (зменшена).jpg"));
+				label.setIcon(new ImageIcon("res/fon/Зірка_1.png"));
+				label_1.setIcon(new ImageIcon("res/fon/Зірка_0.jpg"));
+				label_2.setIcon(new ImageIcon("res/fon/Зірка_0.jpg"));
+				label_3.setIcon(new ImageIcon("res/fon/Зірка_0.jpg"));
+				label_4.setIcon(new ImageIcon("res/fon/Зірка_0.jpg"));
 			}
 		});
-		label.setIcon(new ImageIcon("C:\\Users\\ZakkZakk\\Desktop\\Зірка_0 (зменшена).jpg"));
+		label.setIcon(new ImageIcon("res/fon/Зірка_0.jpg"));
 		label.setBounds(715, 140, 26, 26);
 		getContentPane().add(label);
 
@@ -151,14 +151,14 @@ public class OcinkaKodu3 extends JFrame {
 			public void mouseClicked(MouseEvent e) {
 				grup_putanna15 = 2;
 				dali();
-				label.setIcon(new ImageIcon("C:\\Users\\ZakkZakk\\Desktop\\Зірка_0 (зменшена).jpg"));
-				label_1.setIcon(new ImageIcon("C:\\Users\\ZakkZakk\\Desktop\\Зірка_1 (зменшена).jpg"));
-				label_2.setIcon(new ImageIcon("C:\\Users\\ZakkZakk\\Desktop\\Зірка_0 (зменшена).jpg"));
-				label_3.setIcon(new ImageIcon("C:\\Users\\ZakkZakk\\Desktop\\Зірка_0 (зменшена).jpg"));
-				label_4.setIcon(new ImageIcon("C:\\Users\\ZakkZakk\\Desktop\\Зірка_0 (зменшена).jpg"));
+				label.setIcon(new ImageIcon("res/fon/Зірка_0.jpg"));
+				label_1.setIcon(new ImageIcon("res/fon/Зірка_1.png"));
+				label_2.setIcon(new ImageIcon("res/fon/Зірка_0.jpg"));
+				label_3.setIcon(new ImageIcon("res/fon/Зірка_0.jpg"));
+				label_4.setIcon(new ImageIcon("res/fon/Зірка_0.jpg"));
 			}
 		});
-		label_1.setIcon(new ImageIcon("C:\\Users\\ZakkZakk\\Desktop\\Зірка_0 (зменшена).jpg"));
+		label_1.setIcon(new ImageIcon("res/fon/Зірка_0.jpg"));
 		label_1.setBounds(741, 140, 26, 26);
 		getContentPane().add(label_1);
 
@@ -168,14 +168,14 @@ public class OcinkaKodu3 extends JFrame {
 			public void mouseClicked(MouseEvent e) {
 				grup_putanna15 = 3;
 				dali();
-				label.setIcon(new ImageIcon("C:\\Users\\ZakkZakk\\Desktop\\Зірка_0 (зменшена).jpg"));
-				label_1.setIcon(new ImageIcon("C:\\Users\\ZakkZakk\\Desktop\\Зірка_0 (зменшена).jpg"));
-				label_2.setIcon(new ImageIcon("C:\\Users\\ZakkZakk\\Desktop\\Зірка_1 (зменшена).jpg"));
-				label_3.setIcon(new ImageIcon("C:\\Users\\ZakkZakk\\Desktop\\Зірка_0 (зменшена).jpg"));
-				label_4.setIcon(new ImageIcon("C:\\Users\\ZakkZakk\\Desktop\\Зірка_0 (зменшена).jpg"));
+				label.setIcon(new ImageIcon("res/fon/Зірка_0.jpg"));
+				label_1.setIcon(new ImageIcon("res/fon/Зірка_0.jpg"));
+				label_2.setIcon(new ImageIcon("res/fon/Зірка_1.png"));
+				label_3.setIcon(new ImageIcon("res/fon/Зірка_0.jpg"));
+				label_4.setIcon(new ImageIcon("res/fon/Зірка_0.jpg"));
 			}
 		});
-		label_2.setIcon(new ImageIcon("C:\\Users\\ZakkZakk\\Desktop\\Зірка_0 (зменшена).jpg"));
+		label_2.setIcon(new ImageIcon("res/fon/Зірка_0.jpg"));
 		label_2.setBounds(768, 140, 26, 26);
 		getContentPane().add(label_2);
 
@@ -185,14 +185,14 @@ public class OcinkaKodu3 extends JFrame {
 			public void mouseClicked(MouseEvent e) {
 				grup_putanna15 = 4;
 				dali();
-				label.setIcon(new ImageIcon("C:\\Users\\ZakkZakk\\Desktop\\Зірка_0 (зменшена).jpg"));
-				label_1.setIcon(new ImageIcon("C:\\Users\\ZakkZakk\\Desktop\\Зірка_0 (зменшена).jpg"));
-				label_2.setIcon(new ImageIcon("C:\\Users\\ZakkZakk\\Desktop\\Зірка_0 (зменшена).jpg"));
-				label_3.setIcon(new ImageIcon("C:\\Users\\ZakkZakk\\Desktop\\Зірка_1 (зменшена).jpg"));
-				label_4.setIcon(new ImageIcon("C:\\Users\\ZakkZakk\\Desktop\\Зірка_0 (зменшена).jpg"));
+				label.setIcon(new ImageIcon("res/fon/Зірка_0.jpg"));
+				label_1.setIcon(new ImageIcon("res/fon/Зірка_0.jpg"));
+				label_2.setIcon(new ImageIcon("res/fon/Зірка_0.jpg"));
+				label_3.setIcon(new ImageIcon("res/fon/Зірка_1.png"));
+				label_4.setIcon(new ImageIcon("res/fon/Зірка_0.jpg"));
 			}
 		});
-		label_3.setIcon(new ImageIcon("C:\\Users\\ZakkZakk\\Desktop\\Зірка_0 (зменшена).jpg"));
+		label_3.setIcon(new ImageIcon("res/fon/Зірка_0.jpg"));
 		label_3.setBounds(795, 140, 26, 26);
 		getContentPane().add(label_3);
 
@@ -202,14 +202,14 @@ public class OcinkaKodu3 extends JFrame {
 			public void mouseClicked(MouseEvent e) {
 				grup_putanna15 = 5;
 				dali();
-				label.setIcon(new ImageIcon("C:\\Users\\ZakkZakk\\Desktop\\Зірка_0 (зменшена).jpg"));
-				label_1.setIcon(new ImageIcon("C:\\Users\\ZakkZakk\\Desktop\\Зірка_0 (зменшена).jpg"));
-				label_2.setIcon(new ImageIcon("C:\\Users\\ZakkZakk\\Desktop\\Зірка_0 (зменшена).jpg"));
-				label_3.setIcon(new ImageIcon("C:\\Users\\ZakkZakk\\Desktop\\Зірка_0 (зменшена).jpg"));
-				label_4.setIcon(new ImageIcon("C:\\Users\\ZakkZakk\\Desktop\\Зірка_1 (зменшена).jpg"));
+				label.setIcon(new ImageIcon("res/fon/Зірка_0.jpg"));
+				label_1.setIcon(new ImageIcon("res/fon/Зірка_0.jpg"));
+				label_2.setIcon(new ImageIcon("res/fon/Зірка_0.jpg"));
+				label_3.setIcon(new ImageIcon("res/fon/Зірка_0.jpg"));
+				label_4.setIcon(new ImageIcon("res/fon/Зірка_1.png"));
 			}
 		});
-		label_4.setIcon(new ImageIcon("C:\\Users\\ZakkZakk\\Desktop\\Зірка_0 (зменшена).jpg"));
+		label_4.setIcon(new ImageIcon("res/fon/Зірка_0.jpg"));
 		label_4.setBounds(821, 140, 26, 26);
 		getContentPane().add(label_4);
 
@@ -219,15 +219,15 @@ public class OcinkaKodu3 extends JFrame {
 			public void mouseClicked(MouseEvent e) {
 				grup_putanna16 = 1;
 				dali();
-				label_5.setIcon(new ImageIcon("C:\\Users\\ZakkZakk\\Desktop\\Зірка_1 (зменшена).jpg"));
-				label_6.setIcon(new ImageIcon("C:\\Users\\ZakkZakk\\Desktop\\Зірка_0 (зменшена).jpg"));
-				label_7.setIcon(new ImageIcon("C:\\Users\\ZakkZakk\\Desktop\\Зірка_0 (зменшена).jpg"));
-				label_8.setIcon(new ImageIcon("C:\\Users\\ZakkZakk\\Desktop\\Зірка_0 (зменшена).jpg"));
-				label_9.setIcon(new ImageIcon("C:\\Users\\ZakkZakk\\Desktop\\Зірка_0 (зменшена).jpg"));
+				label_5.setIcon(new ImageIcon("res/fon/Зірка_1.png"));
+				label_6.setIcon(new ImageIcon("res/fon/Зірка_0.jpg"));
+				label_7.setIcon(new ImageIcon("res/fon/Зірка_0.jpg"));
+				label_8.setIcon(new ImageIcon("res/fon/Зірка_0.jpg"));
+				label_9.setIcon(new ImageIcon("res/fon/Зірка_0.jpg"));
 			}
 		});
 		label_5.setBounds(715, 198, 26, 26);
-		label_5.setIcon(new ImageIcon("C:\\Users\\ZakkZakk\\Desktop\\Зірка_0 (зменшена).jpg"));
+		label_5.setIcon(new ImageIcon("res/fon/Зірка_0.jpg"));
 		getContentPane().add(label_5);
 
 		label_6 = new JLabel("");
@@ -236,15 +236,15 @@ public class OcinkaKodu3 extends JFrame {
 			public void mouseClicked(MouseEvent e) {
 				grup_putanna16 = 2;
 				dali();
-				label_5.setIcon(new ImageIcon("C:\\Users\\ZakkZakk\\Desktop\\Зірка_0 (зменшена).jpg"));
-				label_6.setIcon(new ImageIcon("C:\\Users\\ZakkZakk\\Desktop\\Зірка_1 (зменшена).jpg"));
-				label_7.setIcon(new ImageIcon("C:\\Users\\ZakkZakk\\Desktop\\Зірка_0 (зменшена).jpg"));
-				label_8.setIcon(new ImageIcon("C:\\Users\\ZakkZakk\\Desktop\\Зірка_0 (зменшена).jpg"));
-				label_9.setIcon(new ImageIcon("C:\\Users\\ZakkZakk\\Desktop\\Зірка_0 (зменшена).jpg"));
+				label_5.setIcon(new ImageIcon("res/fon/Зірка_0.jpg"));
+				label_6.setIcon(new ImageIcon("res/fon/Зірка_1.png"));
+				label_7.setIcon(new ImageIcon("res/fon/Зірка_0.jpg"));
+				label_8.setIcon(new ImageIcon("res/fon/Зірка_0.jpg"));
+				label_9.setIcon(new ImageIcon("res/fon/Зірка_0.jpg"));
 			}
 		});
 		label_6.setBounds(741, 198, 26, 26);
-		label_6.setIcon(new ImageIcon("C:\\Users\\ZakkZakk\\Desktop\\Зірка_0 (зменшена).jpg"));
+		label_6.setIcon(new ImageIcon("res/fon/Зірка_0.jpg"));
 		getContentPane().add(label_6);
 
 		label_7 = new JLabel("");
@@ -253,15 +253,15 @@ public class OcinkaKodu3 extends JFrame {
 			public void mouseClicked(MouseEvent e) {
 				grup_putanna16 = 3;
 				dali();
-				label_5.setIcon(new ImageIcon("C:\\Users\\ZakkZakk\\Desktop\\Зірка_0 (зменшена).jpg"));
-				label_6.setIcon(new ImageIcon("C:\\Users\\ZakkZakk\\Desktop\\Зірка_0 (зменшена).jpg"));
-				label_7.setIcon(new ImageIcon("C:\\Users\\ZakkZakk\\Desktop\\Зірка_1 (зменшена).jpg"));
-				label_8.setIcon(new ImageIcon("C:\\Users\\ZakkZakk\\Desktop\\Зірка_0 (зменшена).jpg"));
-				label_9.setIcon(new ImageIcon("C:\\Users\\ZakkZakk\\Desktop\\Зірка_0 (зменшена).jpg"));
+				label_5.setIcon(new ImageIcon("res/fon/Зірка_0.jpg"));
+				label_6.setIcon(new ImageIcon("res/fon/Зірка_0.jpg"));
+				label_7.setIcon(new ImageIcon("res/fon/Зірка_1.png"));
+				label_8.setIcon(new ImageIcon("res/fon/Зірка_0.jpg"));
+				label_9.setIcon(new ImageIcon("res/fon/Зірка_0.jpg"));
 			}
 		});
 		label_7.setBounds(768, 198, 26, 26);
-		label_7.setIcon(new ImageIcon("C:\\Users\\ZakkZakk\\Desktop\\Зірка_0 (зменшена).jpg"));
+		label_7.setIcon(new ImageIcon("res/fon/Зірка_0.jpg"));
 		getContentPane().add(label_7);
 
 		label_8 = new JLabel("");
@@ -270,15 +270,15 @@ public class OcinkaKodu3 extends JFrame {
 			public void mouseClicked(MouseEvent e) {
 				grup_putanna16 = 4;
 				dali();
-				label_5.setIcon(new ImageIcon("C:\\Users\\ZakkZakk\\Desktop\\Зірка_0 (зменшена).jpg"));
-				label_6.setIcon(new ImageIcon("C:\\Users\\ZakkZakk\\Desktop\\Зірка_0 (зменшена).jpg"));
-				label_7.setIcon(new ImageIcon("C:\\Users\\ZakkZakk\\Desktop\\Зірка_0 (зменшена).jpg"));
-				label_8.setIcon(new ImageIcon("C:\\Users\\ZakkZakk\\Desktop\\Зірка_1 (зменшена).jpg"));
-				label_9.setIcon(new ImageIcon("C:\\Users\\ZakkZakk\\Desktop\\Зірка_0 (зменшена).jpg"));
+				label_5.setIcon(new ImageIcon("res/fon/Зірка_0.jpg"));
+				label_6.setIcon(new ImageIcon("res/fon/Зірка_0.jpg"));
+				label_7.setIcon(new ImageIcon("res/fon/Зірка_0.jpg"));
+				label_8.setIcon(new ImageIcon("res/fon/Зірка_1.png"));
+				label_9.setIcon(new ImageIcon("res/fon/Зірка_0.jpg"));
 			}
 		});
 		label_8.setBounds(795, 198, 26, 26);
-		label_8.setIcon(new ImageIcon("C:\\Users\\ZakkZakk\\Desktop\\Зірка_0 (зменшена).jpg"));
+		label_8.setIcon(new ImageIcon("res/fon/Зірка_0.jpg"));
 		getContentPane().add(label_8);
 
 		label_9 = new JLabel("");
@@ -287,15 +287,15 @@ public class OcinkaKodu3 extends JFrame {
 			public void mouseClicked(MouseEvent e) {
 				grup_putanna16 = 5;
 				dali();
-				label_5.setIcon(new ImageIcon("C:\\Users\\ZakkZakk\\Desktop\\Зірка_0 (зменшена).jpg"));
-				label_6.setIcon(new ImageIcon("C:\\Users\\ZakkZakk\\Desktop\\Зірка_0 (зменшена).jpg"));
-				label_7.setIcon(new ImageIcon("C:\\Users\\ZakkZakk\\Desktop\\Зірка_0 (зменшена).jpg"));
-				label_8.setIcon(new ImageIcon("C:\\Users\\ZakkZakk\\Desktop\\Зірка_0 (зменшена).jpg"));
-				label_9.setIcon(new ImageIcon("C:\\Users\\ZakkZakk\\Desktop\\Зірка_1 (зменшена).jpg"));
+				label_5.setIcon(new ImageIcon("res/fon/Зірка_0.jpg"));
+				label_6.setIcon(new ImageIcon("res/fon/Зірка_0.jpg"));
+				label_7.setIcon(new ImageIcon("res/fon/Зірка_0.jpg"));
+				label_8.setIcon(new ImageIcon("res/fon/Зірка_0.jpg"));
+				label_9.setIcon(new ImageIcon("res/fon/Зірка_1.png"));
 			}
 		});
 		label_9.setBounds(821, 198, 26, 26);
-		label_9.setIcon(new ImageIcon("C:\\Users\\ZakkZakk\\Desktop\\Зірка_0 (зменшена).jpg"));
+		label_9.setIcon(new ImageIcon("res/fon/Зірка_0.jpg"));
 		getContentPane().add(label_9);
 
 		label_10 = new JLabel("");
@@ -304,15 +304,15 @@ public class OcinkaKodu3 extends JFrame {
 			public void mouseClicked(MouseEvent e) {
 				grup_putanna17 = 1;
 				dali();
-				label_10.setIcon(new ImageIcon("C:\\Users\\ZakkZakk\\Desktop\\Зірка_1 (зменшена).jpg"));
-				label_11.setIcon(new ImageIcon("C:\\Users\\ZakkZakk\\Desktop\\Зірка_0 (зменшена).jpg"));
-				label_12.setIcon(new ImageIcon("C:\\Users\\ZakkZakk\\Desktop\\Зірка_0 (зменшена).jpg"));
-				label_13.setIcon(new ImageIcon("C:\\Users\\ZakkZakk\\Desktop\\Зірка_0 (зменшена).jpg"));
-				label_14.setIcon(new ImageIcon("C:\\Users\\ZakkZakk\\Desktop\\Зірка_0 (зменшена).jpg"));
+				label_10.setIcon(new ImageIcon("res/fon/Зірка_1.png"));
+				label_11.setIcon(new ImageIcon("res/fon/Зірка_0.jpg"));
+				label_12.setIcon(new ImageIcon("res/fon/Зірка_0.jpg"));
+				label_13.setIcon(new ImageIcon("res/fon/Зірка_0.jpg"));
+				label_14.setIcon(new ImageIcon("res/fon/Зірка_0.jpg"));
 			}
 		});
 		label_10.setBounds(715, 261, 26, 26);
-		label_10.setIcon(new ImageIcon("C:\\Users\\ZakkZakk\\Desktop\\Зірка_0 (зменшена).jpg"));
+		label_10.setIcon(new ImageIcon("res/fon/Зірка_0.jpg"));
 		getContentPane().add(label_10);
 
 		label_11 = new JLabel("");
@@ -321,15 +321,15 @@ public class OcinkaKodu3 extends JFrame {
 			public void mouseClicked(MouseEvent e) {
 				grup_putanna17 = 2;
 				dali();
-				label_10.setIcon(new ImageIcon("C:\\Users\\ZakkZakk\\Desktop\\Зірка_0 (зменшена).jpg"));
-				label_11.setIcon(new ImageIcon("C:\\Users\\ZakkZakk\\Desktop\\Зірка_1 (зменшена).jpg"));
-				label_12.setIcon(new ImageIcon("C:\\Users\\ZakkZakk\\Desktop\\Зірка_0 (зменшена).jpg"));
-				label_13.setIcon(new ImageIcon("C:\\Users\\ZakkZakk\\Desktop\\Зірка_0 (зменшена).jpg"));
-				label_14.setIcon(new ImageIcon("C:\\Users\\ZakkZakk\\Desktop\\Зірка_0 (зменшена).jpg"));
+				label_10.setIcon(new ImageIcon("res/fon/Зірка_0.jpg"));
+				label_11.setIcon(new ImageIcon("res/fon/Зірка_1.png"));
+				label_12.setIcon(new ImageIcon("res/fon/Зірка_0.jpg"));
+				label_13.setIcon(new ImageIcon("res/fon/Зірка_0.jpg"));
+				label_14.setIcon(new ImageIcon("res/fon/Зірка_0.jpg"));
 			}
 		});
 		label_11.setBounds(741, 261, 26, 26);
-		label_11.setIcon(new ImageIcon("C:\\Users\\ZakkZakk\\Desktop\\Зірка_0 (зменшена).jpg"));
+		label_11.setIcon(new ImageIcon("res/fon/Зірка_0.jpg"));
 		getContentPane().add(label_11);
 
 		label_12 = new JLabel("");
@@ -338,15 +338,15 @@ public class OcinkaKodu3 extends JFrame {
 			public void mouseClicked(MouseEvent e) {
 				grup_putanna17 = 3;
 				dali();
-				label_10.setIcon(new ImageIcon("C:\\Users\\ZakkZakk\\Desktop\\Зірка_0 (зменшена).jpg"));
-				label_11.setIcon(new ImageIcon("C:\\Users\\ZakkZakk\\Desktop\\Зірка_0 (зменшена).jpg"));
-				label_12.setIcon(new ImageIcon("C:\\Users\\ZakkZakk\\Desktop\\Зірка_1 (зменшена).jpg"));
-				label_13.setIcon(new ImageIcon("C:\\Users\\ZakkZakk\\Desktop\\Зірка_0 (зменшена).jpg"));
-				label_14.setIcon(new ImageIcon("C:\\Users\\ZakkZakk\\Desktop\\Зірка_0 (зменшена).jpg"));
+				label_10.setIcon(new ImageIcon("res/fon/Зірка_0.jpg"));
+				label_11.setIcon(new ImageIcon("res/fon/Зірка_0.jpg"));
+				label_12.setIcon(new ImageIcon("res/fon/Зірка_1.png"));
+				label_13.setIcon(new ImageIcon("res/fon/Зірка_0.jpg"));
+				label_14.setIcon(new ImageIcon("res/fon/Зірка_0.jpg"));
 			}
 		});
 		label_12.setBounds(768, 261, 26, 26);
-		label_12.setIcon(new ImageIcon("C:\\Users\\ZakkZakk\\Desktop\\Зірка_0 (зменшена).jpg"));
+		label_12.setIcon(new ImageIcon("res/fon/Зірка_0.jpg"));
 		getContentPane().add(label_12);
 
 		label_13 = new JLabel("");
@@ -355,15 +355,15 @@ public class OcinkaKodu3 extends JFrame {
 			public void mouseClicked(MouseEvent e) {
 				grup_putanna17 = 4;
 				dali();
-				label_10.setIcon(new ImageIcon("C:\\Users\\ZakkZakk\\Desktop\\Зірка_0 (зменшена).jpg"));
-				label_11.setIcon(new ImageIcon("C:\\Users\\ZakkZakk\\Desktop\\Зірка_0 (зменшена).jpg"));
-				label_12.setIcon(new ImageIcon("C:\\Users\\ZakkZakk\\Desktop\\Зірка_0 (зменшена).jpg"));
-				label_13.setIcon(new ImageIcon("C:\\Users\\ZakkZakk\\Desktop\\Зірка_1 (зменшена).jpg"));
-				label_14.setIcon(new ImageIcon("C:\\Users\\ZakkZakk\\Desktop\\Зірка_0 (зменшена).jpg"));
+				label_10.setIcon(new ImageIcon("res/fon/Зірка_0.jpg"));
+				label_11.setIcon(new ImageIcon("res/fon/Зірка_0.jpg"));
+				label_12.setIcon(new ImageIcon("res/fon/Зірка_0.jpg"));
+				label_13.setIcon(new ImageIcon("res/fon/Зірка_1.png"));
+				label_14.setIcon(new ImageIcon("res/fon/Зірка_0.jpg"));
 			}
 		});
 		label_13.setBounds(795, 261, 26, 26);
-		label_13.setIcon(new ImageIcon("C:\\Users\\ZakkZakk\\Desktop\\Зірка_0 (зменшена).jpg"));
+		label_13.setIcon(new ImageIcon("res/fon/Зірка_0.jpg"));
 		getContentPane().add(label_13);
 
 		label_14 = new JLabel("");
@@ -372,15 +372,15 @@ public class OcinkaKodu3 extends JFrame {
 			public void mouseClicked(MouseEvent e) {
 				grup_putanna17 = 5;
 				dali();
-				label_10.setIcon(new ImageIcon("C:\\Users\\ZakkZakk\\Desktop\\Зірка_0 (зменшена).jpg"));
-				label_11.setIcon(new ImageIcon("C:\\Users\\ZakkZakk\\Desktop\\Зірка_0 (зменшена).jpg"));
-				label_12.setIcon(new ImageIcon("C:\\Users\\ZakkZakk\\Desktop\\Зірка_0 (зменшена).jpg"));
-				label_13.setIcon(new ImageIcon("C:\\Users\\ZakkZakk\\Desktop\\Зірка_0 (зменшена).jpg"));
-				label_14.setIcon(new ImageIcon("C:\\Users\\ZakkZakk\\Desktop\\Зірка_1 (зменшена).jpg"));
+				label_10.setIcon(new ImageIcon("res/fon/Зірка_0.jpg"));
+				label_11.setIcon(new ImageIcon("res/fon/Зірка_0.jpg"));
+				label_12.setIcon(new ImageIcon("res/fon/Зірка_0.jpg"));
+				label_13.setIcon(new ImageIcon("res/fon/Зірка_0.jpg"));
+				label_14.setIcon(new ImageIcon("res/fon/Зірка_1.png"));
 			}
 		});
 		label_14.setBounds(821, 261, 26, 26);
-		label_14.setIcon(new ImageIcon("C:\\Users\\ZakkZakk\\Desktop\\Зірка_0 (зменшена).jpg"));
+		label_14.setIcon(new ImageIcon("res/fon/Зірка_0.jpg"));
 		getContentPane().add(label_14);
 
 		label_15 = new JLabel("");
@@ -389,15 +389,15 @@ public class OcinkaKodu3 extends JFrame {
 			public void mouseClicked(MouseEvent e) {
 				grup_putanna18 = 1;
 				dali();
-				label_15.setIcon(new ImageIcon("C:\\Users\\ZakkZakk\\Desktop\\Зірка_1 (зменшена).jpg"));
-				label_16.setIcon(new ImageIcon("C:\\Users\\ZakkZakk\\Desktop\\Зірка_0 (зменшена).jpg"));
-				label_17.setIcon(new ImageIcon("C:\\Users\\ZakkZakk\\Desktop\\Зірка_0 (зменшена).jpg"));
-				label_18.setIcon(new ImageIcon("C:\\Users\\ZakkZakk\\Desktop\\Зірка_0 (зменшена).jpg"));
-				label_19.setIcon(new ImageIcon("C:\\Users\\ZakkZakk\\Desktop\\Зірка_0 (зменшена).jpg"));
+				label_15.setIcon(new ImageIcon("res/fon/Зірка_1.png"));
+				label_16.setIcon(new ImageIcon("res/fon/Зірка_0.jpg"));
+				label_17.setIcon(new ImageIcon("res/fon/Зірка_0.jpg"));
+				label_18.setIcon(new ImageIcon("res/fon/Зірка_0.jpg"));
+				label_19.setIcon(new ImageIcon("res/fon/Зірка_0.jpg"));
 			}
 		});
 		label_15.setBounds(715, 327, 26, 26);
-		label_15.setIcon(new ImageIcon("C:\\Users\\ZakkZakk\\Desktop\\Зірка_0 (зменшена).jpg"));
+		label_15.setIcon(new ImageIcon("res/fon/Зірка_0.jpg"));
 		getContentPane().add(label_15);
 
 		label_16 = new JLabel("");
@@ -406,15 +406,15 @@ public class OcinkaKodu3 extends JFrame {
 			public void mouseClicked(MouseEvent e) {
 				grup_putanna18 = 2;
 				dali();
-				label_15.setIcon(new ImageIcon("C:\\Users\\ZakkZakk\\Desktop\\Зірка_0 (зменшена).jpg"));
-				label_16.setIcon(new ImageIcon("C:\\Users\\ZakkZakk\\Desktop\\Зірка_1 (зменшена).jpg"));
-				label_17.setIcon(new ImageIcon("C:\\Users\\ZakkZakk\\Desktop\\Зірка_0 (зменшена).jpg"));
-				label_18.setIcon(new ImageIcon("C:\\Users\\ZakkZakk\\Desktop\\Зірка_0 (зменшена).jpg"));
-				label_19.setIcon(new ImageIcon("C:\\Users\\ZakkZakk\\Desktop\\Зірка_0 (зменшена).jpg"));
+				label_15.setIcon(new ImageIcon("res/fon/Зірка_0.jpg"));
+				label_16.setIcon(new ImageIcon("res/fon/Зірка_1.png"));
+				label_17.setIcon(new ImageIcon("res/fon/Зірка_0.jpg"));
+				label_18.setIcon(new ImageIcon("res/fon/Зірка_0.jpg"));
+				label_19.setIcon(new ImageIcon("res/fon/Зірка_0.jpg"));
 			}
 		});
 		label_16.setBounds(741, 327, 26, 26);
-		label_16.setIcon(new ImageIcon("C:\\Users\\ZakkZakk\\Desktop\\Зірка_0 (зменшена).jpg"));
+		label_16.setIcon(new ImageIcon("res/fon/Зірка_0.jpg"));
 		getContentPane().add(label_16);
 
 		label_17 = new JLabel("");
@@ -423,15 +423,15 @@ public class OcinkaKodu3 extends JFrame {
 			public void mouseClicked(MouseEvent e) {
 				grup_putanna18 = 3;
 				dali();
-				label_15.setIcon(new ImageIcon("C:\\Users\\ZakkZakk\\Desktop\\Зірка_0 (зменшена).jpg"));
-				label_16.setIcon(new ImageIcon("C:\\Users\\ZakkZakk\\Desktop\\Зірка_0 (зменшена).jpg"));
-				label_17.setIcon(new ImageIcon("C:\\Users\\ZakkZakk\\Desktop\\Зірка_1 (зменшена).jpg"));
-				label_18.setIcon(new ImageIcon("C:\\Users\\ZakkZakk\\Desktop\\Зірка_0 (зменшена).jpg"));
-				label_19.setIcon(new ImageIcon("C:\\Users\\ZakkZakk\\Desktop\\Зірка_0 (зменшена).jpg"));
+				label_15.setIcon(new ImageIcon("res/fon/Зірка_0.jpg"));
+				label_16.setIcon(new ImageIcon("res/fon/Зірка_0.jpg"));
+				label_17.setIcon(new ImageIcon("res/fon/Зірка_1.png"));
+				label_18.setIcon(new ImageIcon("res/fon/Зірка_0.jpg"));
+				label_19.setIcon(new ImageIcon("res/fon/Зірка_0.jpg"));
 			}
 		});
 		label_17.setBounds(768, 327, 26, 26);
-		label_17.setIcon(new ImageIcon("C:\\Users\\ZakkZakk\\Desktop\\Зірка_0 (зменшена).jpg"));
+		label_17.setIcon(new ImageIcon("res/fon/Зірка_0.jpg"));
 		getContentPane().add(label_17);
 
 		label_18 = new JLabel("");
@@ -440,15 +440,15 @@ public class OcinkaKodu3 extends JFrame {
 			public void mouseClicked(MouseEvent e) {
 				grup_putanna18 = 4;
 				dali();
-				label_15.setIcon(new ImageIcon("C:\\Users\\ZakkZakk\\Desktop\\Зірка_0 (зменшена).jpg"));
-				label_16.setIcon(new ImageIcon("C:\\Users\\ZakkZakk\\Desktop\\Зірка_0 (зменшена).jpg"));
-				label_17.setIcon(new ImageIcon("C:\\Users\\ZakkZakk\\Desktop\\Зірка_0 (зменшена).jpg"));
-				label_18.setIcon(new ImageIcon("C:\\Users\\ZakkZakk\\Desktop\\Зірка_1 (зменшена).jpg"));
-				label_19.setIcon(new ImageIcon("C:\\Users\\ZakkZakk\\Desktop\\Зірка_0 (зменшена).jpg"));
+				label_15.setIcon(new ImageIcon("res/fon/Зірка_0.jpg"));
+				label_16.setIcon(new ImageIcon("res/fon/Зірка_0.jpg"));
+				label_17.setIcon(new ImageIcon("res/fon/Зірка_0.jpg"));
+				label_18.setIcon(new ImageIcon("res/fon/Зірка_1.png"));
+				label_19.setIcon(new ImageIcon("res/fon/Зірка_0.jpg"));
 			}
 		});
 		label_18.setBounds(795, 327, 26, 26);
-		label_18.setIcon(new ImageIcon("C:\\Users\\ZakkZakk\\Desktop\\Зірка_0 (зменшена).jpg"));
+		label_18.setIcon(new ImageIcon("res/fon/Зірка_0.jpg"));
 		getContentPane().add(label_18);
 
 		label_19 = new JLabel("");
@@ -457,15 +457,15 @@ public class OcinkaKodu3 extends JFrame {
 			public void mouseClicked(MouseEvent e) {
 				grup_putanna18 = 5;
 				dali();
-				label_15.setIcon(new ImageIcon("C:\\Users\\ZakkZakk\\Desktop\\Зірка_0 (зменшена).jpg"));
-				label_16.setIcon(new ImageIcon("C:\\Users\\ZakkZakk\\Desktop\\Зірка_0 (зменшена).jpg"));
-				label_17.setIcon(new ImageIcon("C:\\Users\\ZakkZakk\\Desktop\\Зірка_0 (зменшена).jpg"));
-				label_18.setIcon(new ImageIcon("C:\\Users\\ZakkZakk\\Desktop\\Зірка_0 (зменшена).jpg"));
-				label_19.setIcon(new ImageIcon("C:\\Users\\ZakkZakk\\Desktop\\Зірка_1 (зменшена).jpg"));
+				label_15.setIcon(new ImageIcon("res/fon/Зірка_0.jpg"));
+				label_16.setIcon(new ImageIcon("res/fon/Зірка_0.jpg"));
+				label_17.setIcon(new ImageIcon("res/fon/Зірка_0.jpg"));
+				label_18.setIcon(new ImageIcon("res/fon/Зірка_0.jpg"));
+				label_19.setIcon(new ImageIcon("res/fon/Зірка_1.png"));
 			}
 		});
 		label_19.setBounds(821, 327, 26, 26);
-		label_19.setIcon(new ImageIcon("C:\\Users\\ZakkZakk\\Desktop\\Зірка_0 (зменшена).jpg"));
+		label_19.setIcon(new ImageIcon("res/fon/Зірка_0.jpg"));
 		getContentPane().add(label_19);
 
 		label_20 = new JLabel("");
@@ -474,15 +474,15 @@ public class OcinkaKodu3 extends JFrame {
 			public void mouseClicked(MouseEvent e) {
 				grup_putanna19 = 1;
 				dali();
-				label_20.setIcon(new ImageIcon("C:\\Users\\ZakkZakk\\Desktop\\Зірка_1 (зменшена).jpg"));
-				label_21.setIcon(new ImageIcon("C:\\Users\\ZakkZakk\\Desktop\\Зірка_0 (зменшена).jpg"));
-				label_22.setIcon(new ImageIcon("C:\\Users\\ZakkZakk\\Desktop\\Зірка_0 (зменшена).jpg"));
-				label_23.setIcon(new ImageIcon("C:\\Users\\ZakkZakk\\Desktop\\Зірка_0 (зменшена).jpg"));
-				label_24.setIcon(new ImageIcon("C:\\Users\\ZakkZakk\\Desktop\\Зірка_0 (зменшена).jpg"));
+				label_20.setIcon(new ImageIcon("res/fon/Зірка_1.png"));
+				label_21.setIcon(new ImageIcon("res/fon/Зірка_0.jpg"));
+				label_22.setIcon(new ImageIcon("res/fon/Зірка_0.jpg"));
+				label_23.setIcon(new ImageIcon("res/fon/Зірка_0.jpg"));
+				label_24.setIcon(new ImageIcon("res/fon/Зірка_0.jpg"));
 			}
 		});
 		label_20.setBounds(715, 386, 26, 26);
-		label_20.setIcon(new ImageIcon("C:\\Users\\ZakkZakk\\Desktop\\Зірка_0 (зменшена).jpg"));
+		label_20.setIcon(new ImageIcon("res/fon/Зірка_0.jpg"));
 		getContentPane().add(label_20);
 
 		label_21 = new JLabel("");
@@ -491,15 +491,15 @@ public class OcinkaKodu3 extends JFrame {
 			public void mouseClicked(MouseEvent e) {
 				grup_putanna19 = 2;
 				dali();
-				label_20.setIcon(new ImageIcon("C:\\Users\\ZakkZakk\\Desktop\\Зірка_0 (зменшена).jpg"));
-				label_21.setIcon(new ImageIcon("C:\\Users\\ZakkZakk\\Desktop\\Зірка_1 (зменшена).jpg"));
-				label_22.setIcon(new ImageIcon("C:\\Users\\ZakkZakk\\Desktop\\Зірка_0 (зменшена).jpg"));
-				label_23.setIcon(new ImageIcon("C:\\Users\\ZakkZakk\\Desktop\\Зірка_0 (зменшена).jpg"));
-				label_24.setIcon(new ImageIcon("C:\\Users\\ZakkZakk\\Desktop\\Зірка_0 (зменшена).jpg"));
+				label_20.setIcon(new ImageIcon("res/fon/Зірка_0.jpg"));
+				label_21.setIcon(new ImageIcon("res/fon/Зірка_1.png"));
+				label_22.setIcon(new ImageIcon("res/fon/Зірка_0.jpg"));
+				label_23.setIcon(new ImageIcon("res/fon/Зірка_0.jpg"));
+				label_24.setIcon(new ImageIcon("res/fon/Зірка_0.jpg"));
 			}
 		});
 		label_21.setBounds(741, 386, 26, 26);
-		label_21.setIcon(new ImageIcon("C:\\Users\\ZakkZakk\\Desktop\\Зірка_0 (зменшена).jpg"));
+		label_21.setIcon(new ImageIcon("res/fon/Зірка_0.jpg"));
 		getContentPane().add(label_21);
 
 		label_22 = new JLabel("");
@@ -508,15 +508,15 @@ public class OcinkaKodu3 extends JFrame {
 			public void mouseClicked(MouseEvent e) {
 				grup_putanna19 = 3;
 				dali();
-				label_20.setIcon(new ImageIcon("C:\\Users\\ZakkZakk\\Desktop\\Зірка_0 (зменшена).jpg"));
-				label_21.setIcon(new ImageIcon("C:\\Users\\ZakkZakk\\Desktop\\Зірка_0 (зменшена).jpg"));
-				label_22.setIcon(new ImageIcon("C:\\Users\\ZakkZakk\\Desktop\\Зірка_1 (зменшена).jpg"));
-				label_23.setIcon(new ImageIcon("C:\\Users\\ZakkZakk\\Desktop\\Зірка_0 (зменшена).jpg"));
-				label_24.setIcon(new ImageIcon("C:\\Users\\ZakkZakk\\Desktop\\Зірка_0 (зменшена).jpg"));
+				label_20.setIcon(new ImageIcon("res/fon/Зірка_0.jpg"));
+				label_21.setIcon(new ImageIcon("res/fon/Зірка_0.jpg"));
+				label_22.setIcon(new ImageIcon("res/fon/Зірка_1.png"));
+				label_23.setIcon(new ImageIcon("res/fon/Зірка_0.jpg"));
+				label_24.setIcon(new ImageIcon("res/fon/Зірка_0.jpg"));
 			}
 		});
 		label_22.setBounds(768, 386, 26, 26);
-		label_22.setIcon(new ImageIcon("C:\\Users\\ZakkZakk\\Desktop\\Зірка_0 (зменшена).jpg"));
+		label_22.setIcon(new ImageIcon("res/fon/Зірка_0.jpg"));
 		getContentPane().add(label_22);
 
 		label_23 = new JLabel("");
@@ -525,15 +525,15 @@ public class OcinkaKodu3 extends JFrame {
 			public void mouseClicked(MouseEvent e) {
 				grup_putanna19 = 4;
 				dali();
-				label_20.setIcon(new ImageIcon("C:\\Users\\ZakkZakk\\Desktop\\Зірка_0 (зменшена).jpg"));
-				label_21.setIcon(new ImageIcon("C:\\Users\\ZakkZakk\\Desktop\\Зірка_0 (зменшена).jpg"));
-				label_22.setIcon(new ImageIcon("C:\\Users\\ZakkZakk\\Desktop\\Зірка_0 (зменшена).jpg"));
-				label_23.setIcon(new ImageIcon("C:\\Users\\ZakkZakk\\Desktop\\Зірка_1 (зменшена).jpg"));
-				label_24.setIcon(new ImageIcon("C:\\Users\\ZakkZakk\\Desktop\\Зірка_0 (зменшена).jpg"));
+				label_20.setIcon(new ImageIcon("res/fon/Зірка_0.jpg"));
+				label_21.setIcon(new ImageIcon("res/fon/Зірка_0.jpg"));
+				label_22.setIcon(new ImageIcon("res/fon/Зірка_0.jpg"));
+				label_23.setIcon(new ImageIcon("res/fon/Зірка_1.png"));
+				label_24.setIcon(new ImageIcon("res/fon/Зірка_0.jpg"));
 			}
 		});
 		label_23.setBounds(795, 386, 26, 26);
-		label_23.setIcon(new ImageIcon("C:\\Users\\ZakkZakk\\Desktop\\Зірка_0 (зменшена).jpg"));
+		label_23.setIcon(new ImageIcon("res/fon/Зірка_0.jpg"));
 		getContentPane().add(label_23);
 
 		label_24 = new JLabel("");
@@ -542,16 +542,17 @@ public class OcinkaKodu3 extends JFrame {
 			public void mouseClicked(MouseEvent e) {
 				grup_putanna19 = 5;
 				dali();
-				label_20.setIcon(new ImageIcon("C:\\Users\\ZakkZakk\\Desktop\\Зірка_0 (зменшена).jpg"));
-				label_21.setIcon(new ImageIcon("C:\\Users\\ZakkZakk\\Desktop\\Зірка_0 (зменшена).jpg"));
-				label_22.setIcon(new ImageIcon("C:\\Users\\ZakkZakk\\Desktop\\Зірка_0 (зменшена).jpg"));
-				label_23.setIcon(new ImageIcon("C:\\Users\\ZakkZakk\\Desktop\\Зірка_0 (зменшена).jpg"));
-				label_24.setIcon(new ImageIcon("C:\\Users\\ZakkZakk\\Desktop\\Зірка_1 (зменшена).jpg"));
+				label_20.setIcon(new ImageIcon("res/fon/Зірка_0.jpg"));
+				label_21.setIcon(new ImageIcon("res/fon/Зірка_0.jpg"));
+				label_22.setIcon(new ImageIcon("res/fon/Зірка_0.jpg"));
+				label_23.setIcon(new ImageIcon("res/fon/Зірка_0.jpg"));
+				label_24.setIcon(new ImageIcon("res/fon/Зірка_1.png"));
 			}
 		});
 		label_24.setBounds(821, 386, 26, 26);
-		label_24.setIcon(new ImageIcon("C:\\Users\\ZakkZakk\\Desktop\\Зірка_0 (зменшена).jpg"));
+		label_24.setIcon(new ImageIcon("res/fon/Зірка_0.jpg"));
 		getContentPane().add(label_24);
+
 
 		l_fon = new JLabel("");
 //		l_fon.setIcon(new ImageIcon("C:\\Users\\ZakkZakk\\Desktop\\Oputuvanna.PNG"));
